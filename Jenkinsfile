@@ -8,4 +8,8 @@ node {
           echo 'Hello World'
           sayHello 'Dave'
           }
+        
+       stage('Calculate'){
+         calculator.add(50,55)
+          }
 }
