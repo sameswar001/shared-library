@@ -1,8 +1,6 @@
 @Library('shared-library') _
 
-pipeline {
-    agent any
-    stages{
+node {
         stage('Example'){
             echo 'hello world'
         }
@@ -10,5 +8,4 @@ pipeline {
           echo 'Hello World'
           sayHello 'Dave'
           }
-    }
 }
