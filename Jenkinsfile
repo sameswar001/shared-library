@@ -1,4 +1,4 @@
-@Library(shared-library)_
+@library(shared-library)_
 stage('Demo'){
 echo 'Hello World'
 sayHello 'Dave'
